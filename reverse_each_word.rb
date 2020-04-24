@@ -1,5 +1,5 @@
 require 'pry'
-def reverse_each_word_with_each(string)
+def reverse_each_word(string)
   sentence = []
   words = string.split(' ')
   words.each do |word|
