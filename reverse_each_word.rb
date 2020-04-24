@@ -1,4 +1,4 @@
-
+require 'pry'
 def reverse_each_word_with_each(string)
   sentence = []
   words = string.split(' ')
