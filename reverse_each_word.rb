@@ -3,6 +3,7 @@ def reverse_each_word_with_each(string)
   sentence = []
   words = string.split(' ')
   words.each do |word|
+    
     sentence.push(word.reverse)
   end
   sentence.join(' ')
@@ -18,4 +19,3 @@ def reverse_each_word(string)
   sentence.join(' ')
 end
 
-binding.pry
